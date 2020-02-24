@@ -28,7 +28,7 @@ services:
       context: nginx
       dockerfile: Dockerfile
     ports:
-      - "90:80" 
+      - "70:80" 
     restart: always
     depends_on: 
       - spring3hibernate.okts.tk
