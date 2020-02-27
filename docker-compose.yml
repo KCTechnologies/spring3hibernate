@@ -2,7 +2,7 @@ version: '3'
 services:
   spring3hibernate.okts.tk:
     build:
-      context: . 
+      context: spring3hibernate/ 
       dockerfile: Dockerfile
     expose:
       - '8080'
